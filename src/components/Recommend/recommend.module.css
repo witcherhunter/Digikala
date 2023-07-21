@@ -1,0 +1,23 @@
+.recommend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 83%;
+    height: 240px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.recommend-element{
+    width: 315px;
+    height: 236px;
+    border-radius: 16px
+
+}
+
+.recommend-element img{
+    object-fit: cover;
+    width: 315px;
+    height: 236px;
+    border-radius: 16px
+}

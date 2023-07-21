@@ -1,0 +1,3 @@
+npm uninstall --save @fortawesome/fontawesome-svg-core
+npm uninstall --save @fortawesome/free-solid-svg-icons
+npm uninstall --save @fortawesome/react-fontawesome

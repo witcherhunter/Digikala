@@ -1,0 +1,35 @@
+.instory {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  height: 145px;
+  margin: 0px auto;
+}
+
+.instory-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75px;
+  height: 100px;
+  margin: 20px 40px;
+}
+
+.instory-element img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid #e6123d;
+  padding: 3px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.instory-element h5 {
+  text-align: center;
+}
+
+/* .img-border {
+  border: 2px solid;
+} */

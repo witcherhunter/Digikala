@@ -1,0 +1,33 @@
+.feature {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 79%;
+    height: 145px;
+    margin: 0px auto;
+}
+
+.feature-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*width: 52px;*/
+    width: auto;
+    height: 79px;
+    margin: 20px 40px;
+}
+
+.feature-element img {
+    width: 52px;
+    height: 52px;
+    padding: 3px;
+    object-fit: contain;
+}
+
+.feature-element h5 {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+}

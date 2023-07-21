@@ -1,0 +1,28 @@
+.container{
+    width: 98%;
+    height: 104px;
+    margin: 30px auto;
+    font-size: 12px;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Facilities-element{
+    width: 302px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    color: rgb(63, 64, 100);
+    justify-content: space-between;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.Facilities-element img{
+    width: 56px;
+    height: 56px;
+}

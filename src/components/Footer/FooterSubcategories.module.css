@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 160px;
+  background-color: rgb(241, 242, 244);
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.FooterSubcategoriesElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: rgb(241, 242, 244);
+  width: 175px;
+  height: 79px;
+}
+.FooterSubcategoriesElements a {
+  align-items: center;
+  border-bottom: 1px rgb(224, 224, 230) solid;
+  border-right: 1px solid rgb(224, 224, 230);
+  color: rgb(0, 0, 238);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: 10px;
+  height: 80px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.FooterSubcategoriesElements a img {
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  object-fit: contain;
+  opacity: 1;
+  overflow-clip-margin: content-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 109px;
+}

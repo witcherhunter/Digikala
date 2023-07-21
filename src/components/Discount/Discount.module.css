@@ -1,0 +1,122 @@
+.container {
+    direction: rtl;
+    background-image: url("../../db/images/Discount/background.svg");
+    background-repeat: no-repeat;
+    background-color: #f1f3f1;
+    /*background-size: cover;*/
+    background-position: left;
+    background-attachment: scroll;
+    margin: 10px auto;
+    /*border: 2px red solid;*/
+    width: 83%;
+    height: 110px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freshIcon {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fresh {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.text {
+    width: 25%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 174, 0);
+    color: white;
+    padding: 0 12px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.left {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: white;*/
+
+
+}
+
+.img-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+    height: 74px;
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.img-element img {
+    width: 58px;
+    height: 58px;
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.leftText {
+    background-color: white;
+    border-radius: 9999px;
+    color: rgb(57, 174, 0);
+    font-size: 14px;
+    font-weight: 500;
+    /*width: 20%;*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    width: 142px;
+    padding: 14px 20px;
+}
+
+.leftText .icon {
+    text-align: center;
+    /*padding-top: 5px;*/
+    font-size: 19px;
+    padding-right: 4px;
+}

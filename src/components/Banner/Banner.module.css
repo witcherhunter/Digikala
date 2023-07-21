@@ -1,0 +1,35 @@
+.Container{
+    width: 83%;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 24px;
+    align-items: center;
+    /*margin-top: 24px;*/
+    /*padding: 16px 16px 40px 16px;*/
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 99.6%;
+    height: 100%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+
+.banner-element{
+    width: 645px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banner-element img{
+    width: 645px;
+    height: 258px;
+    border-radius: 16px;
+}

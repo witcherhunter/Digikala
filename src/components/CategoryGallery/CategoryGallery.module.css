@@ -1,0 +1,45 @@
+.Container{
+    width: 83%;
+    height: 577px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px 16px 40px 16px;
+}
+.CategoryGallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 577px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+
+.CategoryGallery-element{
+    width: 205px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CategoryGallery-element img{
+    width: 170px;
+    height: 170px;
+}
+.CategoryGallery-element p{
+    text-align: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h3{
+    font-size: 21px;
+    color: rgb(8, 10, 56);
+    font-weight: 900;
+}
