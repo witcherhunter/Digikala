@@ -1,5 +1,5 @@
 {
-  "homepage": "https://witcherhunter.github.io/Digikala",
+  "homepage": "http://witcherhunter.github.io/Digikala",
   "name": "digikalaclone",
   "version": "0.1.0",
   "private": true,
@@ -51,6 +51,4 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
-
-
 }
